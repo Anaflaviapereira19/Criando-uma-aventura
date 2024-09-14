@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A cidade secreta de Velanor</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.jpeg" alt="">
+            <p>Sempre ouvi falar sobre a Cidade Secreta de Velanor, um lugar escondido nas montanhas onde a magia e a tecnologia antiga se misturam. Muitos procuraram, poucos voltaram, e os que retornaram nunca mais foram os mesmos. Agora, é a minha vez. Depois de dias de caminhada pelas montanhas geladas, meus pés cansados me levam a um penhasco. Lá embaixo, vejo duas opções para descer:</p>
+            <button class="btn-proximo" data-proximo="1">Uma escada de corda</button>
+            <button class="btn-proximo" data-proximo="2">Um túnel estreito</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Descendo pela escada de corda, cada passo faz o chão se afastar mais. Subitamente, a corda se solta e caio em um poço profundo. Quando me levanto, vejo um caminho iluminado por cristais no chão. Duas opções aparecem:</p>
+            <button class="btn-proximo" data-proximo="3">Seguir as luzes dos cristais</button>
+            <button class="btn-proximo" data-proximo="4">Explorar uma passagem lateral</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O túnel é apertado e úmido, mas parece seguro. Quando chego ao final, uma caverna imensa se abre diante de mim. Duas portas de pedra, cada uma com símbolos misteriosos, estão à frente:</p>
+            <button class="btn-proximo" data-proximo="5">Porta com o símbolo de um sol</button>
+            <button class="btn-proximo" data-proximo="6">Porta com o símbolo de uma lua</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Escolhendo o caminho da luz, sou levado a um grande salão circular, onde quatro sentinelas de pedra se erguem, cada uma segurando um orbe. No centro, uma mesa com um mapa esculpido na superfície, mostrando pistas de onde a cidade poderia estar.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir estas pistas</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Ao passar pela passagem, sinto o ar ficar mais denso e o chão começar a se mover. Subitamente, uma armadilha se ativa, e o teto da caverna desaba, bloqueando a passagem e fazendo com que eu desmaiasse. Quando eu acordo, vejo que estou tranquilo em minha casa e percebo que tudo isso não se passava de um sonho.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Escolhendo a porta do sol, sou levado a um grande salão circular, onde quatro sentinelas de pedra se erguem, cada uma segurando um orbe. No centro, uma mesa com um mapa esculpido na superfície, mostrando pistas de onde a cidade poderia estar.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir as pistas</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ao escolher a porta da escuridão, sou sugado para um labirinto subterrâneo. As paredes se movem lentamente e me levam à um caminho sem saida, então sou obrigado a voltar e investigar a outra porta</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a porta do sol</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Seguindo as pistas do mapa, a busca pela cidade secreta se intensifica. Eu me deparo com dois caminhos que podem me levar até a cidade.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Entrando na porta do sol, eu finalmente encontro o mapa antigo que revela pistas de onde a cidade secreta poderia estar.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir as pistas</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>O caminho à esquerda me leva a uma cachoeira bela e iluminada com inscrições antigas que revelam a entrada de
+                uma cidade.</p>
+            <button class="btn-proximo" data-proximo="11">Decifrar as inscrições e entrar na cidade</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais da cidade por
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Sua ação foi precisa. O chão treme, e as paredes da cachoeira se abrem revelando Velanor em todo o seu esplendor. As torres douradas da cidade brilham sob a luz mágica, e mecanismos antigos flutuam pelo ar, movidos por forças arcanas. Você encontrou a Cidade Secreta de Velanor, onde segredos antigos aguardam seu descobrimento.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, eu finalmente encontro uma cachoeira iluminada com inscrições
+                que me levam à cidade secreta.</p>
+            <button class="btn-proximo" data-proximo="11">Decifrar as inscrições e entrar na cidade secreta</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
